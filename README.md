@@ -25,7 +25,7 @@ Este projeto consiste em um **currículo profissional estático e interativo**, 
 - Renderização visual de um gráfico de barras desenhado via JavaScript no elemento `<canvas>`, apresentando o nível de domínio em tecnologias.
 
 ### Publicação
-- Acesse o currículo **[[aqui](https://lucasbradacz.github.io/Meu-Curriculo/)]**
+- Acesse o currículo **[[aqui](https://eric-camini482.github.io/curriculo/)]**
 
 ## 📁 Organização dos Arquivos
 
