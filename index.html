@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo Profissional | Eric Camini</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <img src="media/foto.jpg" alt="Foto de perfil de Eric Camini" class="profile-img">
+      <div>
+        <h1 id="boas-vindas-titulo">Olá, eu sou Eric Camini</h1>
+        <p>Desenvolvedor de Software & Estudante de Ciência da Computação</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção sobre e interatividade -->
+    <section class="card">
+      <h2>Sobre Mim</h2>
+      <p>Entusiasta de tecnologia, qualidade de software e desenvolvimento de aplicações. Cursando Ciências da Computação na UNOESC.</p>
+      
+      <!-- Campo de interatividade com JS -->
+      <div class="form-group">
+        <label for="nome-usuario">Personalize sua visita:</label>
+        <div class="input-inline">
+          <input type="text" id="nome-usuario" placeholder="Digite seu nome">
+          <button id="btn-saudacao">Saudar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de habilidades + Canvas -->
+    <section class="card">
+      <h2>Habilidades Técnicas</h2>
+      <ul>
+        <li>HTML5 & CSS3 Responsivo</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Python</li>
+	<li>C#</li>
+        <li>Estruturas de Dados e Algoritmos</li>
+      </ul>
+
+    <!-- Seção retrátil (Toggle JS) -->
+    <section class="card">
+      <div class="section-header">
+        <h2>Projetos & Experiência</h2>
+        <button id="btn-toggle-projetos">Ocultar/Mostrar</button>
+      </div>
+      
+      <div id="conteudo-projetos">
+        <article class="projeto-item">
+          <h3>Análise de Qualidade de Software</h3>
+          <p>Estudo e aplicação das normas ISO/IEC 25010 para avaliação de usabilidade e qualidade em aplicações web.</p>
+        </article>
+        <article class="projeto-item">
+          <h3>Desenvolvimento de Aplicação Web</h3>
+          <p>Desenvolvimento de aplicação utilizando Javascript, Visual Paradigm, DBeaver e PostGre SQL .</p>
+        </article>
+        </article>
+        <article class="projeto-item">
+          <h3>Análise e Criação de Grafos</h3>
+          <p>Desenvolvimento de rotas e análise euleriana utilizando NetworkX e Matplotlib.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section class="card">
+      <h2>Contato</h2>
+      <p>Entre em contato pelas redes sociais ou envie uma mensagem direta:</p>
+      
+      <ul class="social-links">
+        <li><a href="https://github.com/eric-camini482" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:eric@exemplo.com">E-mail</a></li>
+      </ul>
+
+      <form id="form-contato" onsubmit="event.preventDefault();">
+        <div class="form-group">
+          <label for="email-contato">Seu E-mail:</label>
+          <input type="email" id="email-contato" placeholder="seuemail@exemplo.com" required>
+        </div>
+        <button type="submit" id="btn-enviar-email">Enviar Interesse</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Eric Camini. Desenvolvido para a disciplina de Programação IV.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
