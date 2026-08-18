@@ -24,6 +24,9 @@ Este projeto consiste em um **currículo profissional estático e interativo**, 
 ### 🖼️ Recursos com HTML5 Canvas
 - Renderização visual de um gráfico de barras desenhado via JavaScript no elemento `<canvas>`, apresentando o nível de domínio em tecnologias.
 
+### Publicação
+- Acesse o **[[currículo aqui](https://eric-camini482.github.io/curriculo/)]**
+
 ## 📁 Organização dos Arquivos
 
 ```text
