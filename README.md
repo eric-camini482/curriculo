@@ -30,6 +30,6 @@ Este projeto consiste em um **currículo profissional estático e interativo**, 
 /curriculo/
 ├── index.html       # Estrutura principal da página
 ├── style.css        # Estilização visual e responsividade
-├── script.js       # Lógica JS, manipulação do DOM e Canvas
+├── script.js        # Lógica JS, manipulação do DOM e Canvas
 └── /media/
     └── foto.jpg     # Foto de perfil
